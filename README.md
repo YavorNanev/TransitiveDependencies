@@ -7,11 +7,11 @@ of things that this first item depends on. Given the following input, we
 know that A directly depends on B and C, B depends on C and E, and so
 on.
 
-A B C
-B C E
-C G
-D A F
-E F
+A B C <br />
+B C E <br />
+C G <br />
+D A F <br />
+E F <br />
 F H
 
 
@@ -20,12 +20,12 @@ dependencies.
 
 The output of the program for the above input should look like:
 
-A B C E F G H
-B C E F G H
-C G
-D A B C E F G H
-E F H
-F H
+A B C E F G H <br />
+B C E F G H <br />
+C G <br />
+D A B C E F G H <br />
+E F H <br />
+F H <br />
 
 
 Optional extra
